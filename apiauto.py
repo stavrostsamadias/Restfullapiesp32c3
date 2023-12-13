@@ -39,36 +39,36 @@ webpage="""<!DOCTYPE html>
     <h2 style="text-align: center;">Instructions for POST REQUEST</h2>
     <br>
     <h3>POST REQUEST FOR THE 1FIRST SENSOR</h3>
-    <p>The data is taken by ESP32-C3 from the sensors "Moisture, Temperature, CO2_Sensor" and with the post method it's requests the data on the page <a href="https://stayrostsamadias.pythonanywhere.com/1/get/">https://stayrostsamadias.pythonanywhere.com/1/get/</a> string:temp1 string:temp2 string:temp3</p>
+    <p>The data is taken by ESP32-C3 from the sensors "Moisture, Temperature, CO2_Sensor" and with the post method it's requests the data on the page <a href="https://restfullapiesp32c3.onrender.com/1/get">https://restfullapiesp32c3.onrender.com/1/get</a> string:temp1 string:temp2 string:temp3</p>
     <br>
     <h3>POST REQUEST FOR THE 2SECOND SENSOR</h3>
-    <p>The data is taken by ESP32-C3 from the sensors "Moisture, Temperature, CO2_Sensor" and with the post method it's requests the data on the page <a href="https://stayrostsamadias.pythonanywhere.com/2/get/">https://stayrostsamadias.pythonanywhere.com/2/get/</a> string:temp1 string:temp2 string:temp3</p>
+    <p>The data is taken by ESP32-C3 from the sensors "Moisture, Temperature, CO2_Sensor" and with the post method it's requests the data on the page <a href="https://restfullapiesp32c3.onrender.com/2/get">https://restfullapiesp32c3.onrender.com/2/get</a> string:temp1 string:temp2 string:temp3</p>
         
     <h2 style="text-align: center;">Instructions for DELETE REQUEST</h2>
     <br>
     <h3>POST REQUEST FOR THE 1FIRST SENSOR</h3>
-    <p>If the data is not right and taken by ESP32-C3 from the sensors "Moisture, Temperature, CO2_Sensor" use the DELETE method it's requests the data on the page <a href="https://stayrostsamadias.pythonanywhere.com/1/get/">https://stayrostsamadias.pythonanywhere.com/1/get/</a> string:temp1 string:temp2 string:temp3</p>
+    <p>If the data is not right and taken by ESP32-C3 from the sensors "Moisture, Temperature, CO2_Sensor" use the DELETE method it's requests the data on the page <a href="https://restfullapiesp32c3.onrender.com/1/get">https://restfullapiesp32c3.onrender.com/1/get</a> string:temp1 string:temp2 string:temp3</p>
     <br>
     <h3>POST REQUEST FOR THE 2SECOND SENSOR</h3>
-    <p>If the data is not right and taken by ESP32-C3 from the sensors "Moisture, Temperature, CO2_Sensor" use the DELETE method it's requests the data on the page <a href="https://stayrostsamadias.pythonanywhere.com/2/get/">https://stayrostsamadias.pythonanywhere.com/2/get/</a> string:temp1 string:temp2 string:temp3</p>
+    <p>If the data is not right and taken by ESP32-C3 from the sensors "Moisture, Temperature, CO2_Sensor" use the DELETE method it's requests the data on the page <a href="https://restfullapiesp32c3.onrender.com/2/get">https://restfullapiesp32c3.onrender.com/2/get</a> string:temp1 string:temp2 string:temp3</p>
     <br>
     <h2 style="text-align: center;">Instructions for GET REQUEST</h2>
     <br>
     <h3>GET REQUEST FOR THE 1FIRST SENSOR</h3>
-    <p>If you need the data to taken from by ESP32-C3 from the sensors "Moisture, Temperature, CO2_Sensor" use the GET method it's requests the data on the page <a href="https://stayrostsamadias.pythonanywhere.com/1/data/">https://stayrostsamadias.pythonanywhere.com/1/data/</a> string:temp1 string:temp2 string:temp3</p>
+    <p>If you need the data to taken from by ESP32-C3 from the sensors "Moisture, Temperature, CO2_Sensor" use the GET method it's requests the data on the page <a href="https://restfullapiesp32c3.onrender.com/1/data">https://restfullapiesp32c3.onrender.com/1/data</a> string:temp1 string:temp2 string:temp3</p>
     <br>
     <h3>GET REQUEST FOR THE 2SECOND SENSOR</h3>
-    <p>If you need the data to taken from by ESP32-C3 from the sensors "Moisture, Temperature, CO2_Sensor" use the GET method it's requests the data on the page <a href="https://stayrostsamadias.pythonanywhere.com/2/data/">https://stayrostsamadias.pythonanywhere.com/2/data/</a> string:temp1 string:temp2 string:temp3</p>
+    <p>If you need the data to taken from by ESP32-C3 from the sensors "Moisture, Temperature, CO2_Sensor" use the GET method it's requests the data on the page <a href="https://restfullapiesp32c3.onrender.com/2/data">https://restfullapiesp32c3.onrender.com/2/data</a> string:temp1 string:temp2 string:temp3</p>
     <br>
     <h2 style="text-align: center;">GET ALL THE DATA</h2>
-    <p>If you wand to see all the data from the 2 sensors you need to go <a href="https://stayrostsamadias.pythonanywhere.com/data/">https://stayrostsamadias.pythonanywhere.com/data/</a></p>
+    <p>If you wand to see all the data from the 2 sensors you need to go <a href="https://restfullapiesp32c3.onrender.com/data">https://restfullapiesp32c3.onrender.com/data</a></p>
     <br>
     <h3 style="text-align: center;">Data Examples in Json</h3>
     <p>#values ​​1 1 1 1 present JSON {"Data_temps1": [{"Moisture": "1", "Temperature": "1", "CO2_Sensor": "1"}]}.</p>
     <br>
     <h2 style="text-align: center;">FOR THE GRAPHS OF SENSORS 1 AND 2</h2>
-    <p>If you wand to see the data GRAPHS from the 1 sensor you need to go <a href="https://stayrostsamadias.pythonanywhere.com/grafics/1/">https://stayrostsamadias.pythonanywhere.com/grafics/1/</a></p>
-    <p>If you wand to see the data GRAPHS from the 2 sensor you need to go <a href="https://stayrostsamadias.pythonanywhere.com/grafics/2/">https://stayrostsamadias.pythonanywhere.com/grafics/2/</a></p>
+    <p>If you wand to see the data GRAPHS from the 1 sensor you need to go <a href="https://restfullapiesp32c3.onrender.com/grafics/1">https://restfullapiesp32c3.onrender.com/grafics/1</a></p>
+    <p>If you wand to see the data GRAPHS from the 2 sensor you need to go <a href="https://restfullapiesp32c3.onrender.com/grafics/2">https://restfullapiesp32c3.onrender.com/grafics/2</a></p>
     <br>
     <h3 style="text-align: end;">Copyright Stavros Tsamadias for D.I.E.K Mesologhiou 2023</h3>
     <br>
@@ -136,7 +136,7 @@ webpage2 = """
         
         function updateCharts() {
             // Κάνε αίτηση AJAX για τα δεδομένα των δύο σελίδων
-            fetch('http://127.0.0.1:5000/grafics/2')
+            fetch('https://restfullapiesp32c3.onrender.com/grafics/2')
                 .then(response => response.text())
                 .then(data => {
                     document.getElementById('chart1').innerHTML = data;
@@ -208,7 +208,7 @@ webpage1 = """
         Plotly.newPlot('myChart', [traceMoisture, traceTemperature, traceCO2], layout);
         function updateCharts() {
             // Κάνε αίτηση AJAX για τα δεδομένα των δύο σελίδων
-            fetch('http://127.0.0.1:5000/grafics/1')
+            fetch('https://restfullapiesp32c3.onrender.com/grafics/1')
                 .then(response => response.text())
                 .then(data => {
                     document.getElementById('chart1').innerHTML = data;
@@ -231,7 +231,7 @@ def index():
 
 @app.route('/grafics/2')
 def index2():
-    response = requests.get(url="http://127.0.0.1:5000/2/data")
+    response = requests.get(url="https://restfullapiesp32c3.onrender.com/2/data")
     data_text = response.json()['Temps']
     if response.status_code != 200:
         return "Unauthorized", 401
@@ -275,7 +275,7 @@ def index2():
 
 @app.route('/grafics/1')
 def index1():
-    response = requests.get(url="http://127.0.0.1:5000/1/data")
+    response = requests.get(url="https://restfullapiesp32c3.onrender.com/1/data")
     data_text = response.json()['Temps']
     if response.status_code != 200:
         return "Unauthorized", 401
